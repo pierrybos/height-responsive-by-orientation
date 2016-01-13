@@ -8,9 +8,9 @@ Sample add a custon attribute inside elements you want show/hide.
 
     <a orientation-land-h-md="only">will show only in medium screens - beetwen 960px and 1279px</a>
 
-    <div orientation-land-h-gt-md="only">will show only in  grater then medium screens - gt 1280px</div>
+    <div orientation-land-h-gt-md="only">will show only in  greater then medium screens - gt 1280px</div>
 
-    <table orientation-land-h-xs="hide">will show only in  grater then xsmall screens - gt 599px</table>
+    <table orientation-land-h-xs="hide">will show only in  greater then xsmall screens - gt 599px</table>
 
     <aside orientation-land-h-gt-xs="hide">will show only in  xsmall screens - max 599px</aside>
     
