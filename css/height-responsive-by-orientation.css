@@ -21,13 +21,6 @@
 
 
 
-
-
-
-
-
-
-
 /* for xsmall, hide others */
 @media all and (orientation:landscape) and (max-height: 599px) {
 
@@ -62,7 +55,7 @@
 
 }
 
-/* for greater than xsmall, hide xsmall and grater then small */
+/* for greater than xsmall, hide xsmall and greater then small */
 @media all and (orientation:landscape) and (min-height: 600px) and (max-height: 959px) {
     
     *[orientation-land-h-xs="only"],
@@ -95,7 +88,7 @@
     }
 }
 
-/* for medium and grater then */
+/* for medium and greater then */
 @media all and (orientation:landscape) and (min-height: 960px) and (max-height: 1279px) {
     
     *[orientation-land-h-xs="only"],
@@ -128,7 +121,7 @@
     }
 }
 
-/* for larger and grater then */
+/* for larger and greater then */
 @media all and (orientation:landscape) and (min-height: 1280px) and (max-height: 1919px) {
     
     *[orientation-land-h-xs="only"],
@@ -161,7 +154,7 @@
     }
 }
 
-/* for xlarge and grater then */
+/* for xlarge and greater then */
 @media all and (orientation:landscape) and (min-height: 1920px) {
     
     *[orientation-land-h-xs="only"],
