@@ -1,0 +1,197 @@
+
+
+@media all and (orientation:portrait) {
+
+    *[orientation-land="only"] ,
+    *[orientation-port="hide"]
+    {
+        display: none;
+    }
+
+}
+@media all and (orientation:landscape) {
+
+    *[orientation-port="only"],
+    *[orientation-land="hide"]
+    {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* for xsmall, hide others */
+@media all and (orientation:landscape) and (max-height: 599px) {
+
+    *[orientation-land-h-xs="hide"],
+    *[orientation-land-h-gt-xs="only"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="only"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+
+}
+@media all and (orientation:portrait) and (max-height: 599px) {
+
+    *[orientation-port-h-xs="hide"],
+    *[orientation-land-h-gt-xs="only"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="only"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+
+}
+
+/* for greater than xsmall, hide xsmall and grater then small */
+@media all and (orientation:landscape) and (min-height: 600px) and (max-height: 959px) {
+    
+    *[orientation-land-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="hide"],
+    *[orientation-land-h-gt-sm="only"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+@media all and (orientation:portrait) and (min-height: 600px) and (max-height: 959px) {
+    
+    *[orientation-port-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="hide"],
+    *[orientation-land-h-gt-sm="only"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+/* for medium and grater then */
+@media all and (orientation:landscape) and (min-height: 960px) and (max-height: 1279px) {
+    
+    *[orientation-land-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="hide"],
+    *[orientation-land-h-md="hide"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+@media all and (orientation:portrait) and (min-height: 960px) and (max-height: 1279px) {
+    
+    *[orientation-port-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="hide"],
+    *[orientation-land-h-md="hide"],
+    *[orientation-land-h-gt-md="only"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+/* for larger and grater then */
+@media all and (orientation:landscape) and (min-height: 1280px) and (max-height: 1919px) {
+    
+    *[orientation-land-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="hide"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="hide"],
+    *[orientation-land-h-lg="hide"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+@media all and (orientation:portrait) and (min-height: 1280px) and (max-height: 1919px) {
+    
+    *[orientation-port-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="hide"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="hide"],
+    *[orientation-land-h-lg="hide"],
+    *[orientation-land-h-gt-lg="only"],
+    *[orientation-land-h-xl="only"]
+    {
+        display: none;
+    }
+}
+
+/* for xlarge and grater then */
+@media all and (orientation:landscape) and (min-height: 1920px) {
+    
+    *[orientation-land-h-xs="only"],
+    *[orientation-land-h-gt-xs="hide"],
+    *[orientation-land-h-sm="only"],
+    *[orientation-land-h-gt-sm="hide"],
+    *[orientation-land-h-md="only"],
+    *[orientation-land-h-gt-md="hide"],
+    *[orientation-land-h-lg="only"],
+    *[orientation-land-h-gt-lg="hide"],
+    *[orientation-land-h-xl="hide"]
+    {
+        display: none;
+    }
+}
+
+@media all and (orientation:portrait) and (min-height: 1920px) {
+    
+    *[orientation-port-h-xs="only"],
+    *[orientation-port-h-gt-xs="hide"],
+    *[orientation-port-h-sm="only"],
+    *[orientation-port-h-gt-sm="hide"],
+    *[orientation-port-h-md="only"],
+    *[orientation-port-h-gt-md="hide"],
+    *[orientation-port-h-lg="only"],
+    *[orientation-port-h-gt-lg="hide"],
+    *[orientation-port-h-xl="hide"]
+    {
+        display: none;
+    }
+}
+
+
