@@ -21,12 +21,20 @@ Sample add a custon attribute inside elements you want show/hide.
 
 
 
-xs           <= 599
+xs           <= 599 
+
 gt-xs        >= 600  
+
 sm           >= 600  && <= 959
+
 gt-sm        >= 960
+
 md           >= 960  && <= 1279
+
 gt-md        >= 1280
+
 lg           >= 1280 && <= 1919
+
 gt-lg        >= 1920
+
 xl           >= 1920
