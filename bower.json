@@ -1,7 +1,7 @@
 {
   "name": "height-responsive-by-orientation",
-  "version" "0.0.1",
-  "homepage": "https://github.com/pierrybos/height-responsive-by-orientation",
+  "version": "0.0.1",
+   "homepage": "https://github.com/pierrybos/height-responsive-by-orientation",
   "description": "Sample show/hide elements using orientation and height as reference",
   "main": "css/height-responsive-by-orientation.css",
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "ignore": [
-//    "**/.*",
+   "**/.*",
     "assets/node_modules",
     "assets/bower_components",
     "assets/test",
